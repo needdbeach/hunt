@@ -56,7 +56,7 @@ function create() {
   const tiles = this.tilemap.addTilesetImage("tiles");
   const layer = this.tilemap.createStaticLayer(0, tiles, 0, 0);
 
-  this.levelManager = new LevelManager({});
+  //this.levelManager = new LevelManager({});
   this.movementHandler = new MovementHandler(this.input.keyboard.createCursorKeys());
 
   this.anims.create({
